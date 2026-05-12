@@ -21,7 +21,7 @@
 
 const http = require("http");
 
-const AUTH_KEY = process.env.AUTH_KEY || "";
+const AUTH_KEY = process.env.AUTH_KEY || "a99ef825532e979b2780ebf84adedf1fdc677f748f5f405a25a9506507c70765ss";
 const PORT = parseInt(process.env.PORT, 10) || 8787;
 const HOST = process.env.HOST || "127.0.0.1";
 
